@@ -33,19 +33,19 @@ export default function Popular() {
                     </div>
 
                     <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 my-12 relative z-10">
-                        <Card image="/mountain.jpg"
+                        <Card image="./mountain.jpg"
                             location="Kirkjufell, Island"
                             text="SC, Kirkjufell" />
 
-                        <Card image="/maldives.jpg"
+                        <Card image="./maldives.jpg"
                             location="Maldives, Maldives"
                             text="Maldives" />
 
-                        <Card image="/fall.jpg"
+                        <Card image="./fall.jpg"
                             location="Chily, Central America"
                             text="CA, Chily" />
 
-                        <Card image="/view.jpg"
+                        <Card image="./view.jpg"
                             location="OIA, Dubai"
                             text="Dubai" />
 
@@ -87,7 +87,7 @@ export default function Popular() {
                         </div>
 
                         <div className="lg:w-1/2 h-full overflow-hidden rounded-2xl">
-                            <img src="/stone.jpg" alt="" className="rounded-2xl w-full h-full hoverImg" />
+                            <img src="./stone.jpg" alt="" className="rounded-2xl w-full h-full hoverImg" />
                         </div>
                     </div>
             </section>

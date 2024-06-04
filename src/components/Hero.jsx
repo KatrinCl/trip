@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="container mx-auto px-6 pt-12">
             <div className="relative rounded-2xl lg:pb-32 lg:h-[70vh]">
                 <div className="overflow-hidden relative h-full w-full">
-                    <img src="/img1.jpg" alt=""
+                    <img src="./img1.jpg" alt=""
                         className="lg:absolute top-0 w-full lg:h-[70vh] h-[30rem] object-cover rounded-2xl hoverImg" />
                 </div>
 
@@ -97,9 +97,6 @@ export default function Hero() {
                                     </button>
                                 </div>
                             </div>
-
-
-
                         </div>
                     </div>
                 </div>

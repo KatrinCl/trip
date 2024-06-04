@@ -22,10 +22,10 @@ export default function Adventure() {
                 <p>Find and book a great experience</p>
             </div>
             <div className="flex lg:flex-row flex-col justify-between items-center gap-4 pt-8 mx-auto">
-                <Card city="PARIS" image="/paris.jpg" />
-                <Card city="NEW YORK" image="/n-y.jpg" />
-                <Card city="SEOUL" image="/seoul.jpg" />
-                <Card city="BALI" image="/bali.jpg" />
+                <Card city="PARIS" image="./paris.jpg" />
+                <Card city="NEW YORK" image="./n-y.jpg" />
+                <Card city="SEOUL" image="./seoul.jpg" />
+                <Card city="BALI" image="./bali.jpg" />
             </div>
             <div className="flex justify-center py-10">
                 <button className="rounded-full w-10 h-10 shadow flex justify-center items-center hover:text-white">
@@ -45,7 +45,7 @@ export default function Adventure() {
             <div className="overflow-hidden rounded-2xl"> 
                 <div className="w-full lg:h-[40rem] h-80 rounded-2xl">
                     <video loop controls muted autoPlay>
-                        <source src="/vid.mp4" type="video/mp4" />
+                        <source src="./vid.mp4" type="video/mp4" />
                     </video>
                 </div>
             </div>
