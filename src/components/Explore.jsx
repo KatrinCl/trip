@@ -110,12 +110,12 @@ export default function Explore() {
             </button>
           </div>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 py-16">
-            <Card image='/maldives.jpg' text='Maldives' location='Maldives, Maldives' price='360' />
-            <Card image='/mountain.jpg' text='SC, Kirkjufell' location='Kirkjufell, Island' price='200' />
-            <Card image='/fall.jpg' text='Chily' location='CA, Chily' price='180' />
-            <Card image='/view.jpg' text='Dubai' location='OIA, Dubai' price='210' />
-            <Card image='/fall1.jpg' text='Mexico' location='CA,Mexico' price='200' />
-            <Card image='/mf.jpg' text='Brazil' location='SA, Brazil' price='260' />
+            <Card image='./maldives.jpg' text='Maldives' location='Maldives, Maldives' price='360' />
+            <Card image='./mountain.jpg' text='SC, Kirkjufell' location='Kirkjufell, Island' price='200' />
+            <Card image='./fall.jpg' text='Chily' location='CA, Chily' price='180' />
+            <Card image='./view.jpg' text='Dubai' location='OIA, Dubai' price='210' />
+            <Card image='./fall1.jpg' text='Mexico' location='CA,Mexico' price='200' />
+            <Card image='./mf.jpg' text='Brazil' location='SA, Brazil' price='260' />
           </div>
           <div className="flex justify-center">
             <button className="shadow-md transition-bg bg-white hover:text-white outline-none px-4 py-2 rounded-[10px]">Show more</button>
